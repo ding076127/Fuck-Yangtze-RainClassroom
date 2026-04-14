@@ -1,4 +1,4 @@
-name: 为什么定时不好用
+name: 我要自动签到答题
 on:
   workflow_dispatch:
   schedule:
@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 安装依赖
-        run: pip install -r requirements.txt
+        run: python -m pip install -r requirements.txt  # 👈 修复点
 
       - name: 启动签到
         run: python start.py
