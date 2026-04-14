@@ -1,0 +1,17 @@
+name: 为什么定时不好用
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
+
+jobs:
+  checkin:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 启动签到
+        run: python start.py
