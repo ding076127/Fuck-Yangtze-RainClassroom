@@ -781,5 +781,23 @@
         "student": "邵吉环",
         "status": "签到成功",
         "url": "https://changjiang.yuketang.cn/m/v2/lesson/student/1665607814678606208"
+    },
+    {
+        "id": "1665770450879904512",
+        "title": "大学生就业指导",
+        "name": "大学生就业指导",
+        "time": "2026-04-17 10:13:10",
+        "student": "邵吉环",
+        "status": "签到成功",
+        "url": "https://changjiang.yuketang.cn/m/v2/lesson/student/1665770450879904512"
+    },
+    {
+        "id": "1665607814678606208",
+        "title": "成人护理学Ⅱ",
+        "name": "成人护理学Ⅱ",
+        "time": "2026-04-17 10:13:11",
+        "student": "邵吉环",
+        "status": "签到成功",
+        "url": "https://changjiang.yuketang.cn/m/v2/lesson/student/1665607814678606208"
     }
 ]
